@@ -1,0 +1,26 @@
+{
+  "name": "aws_api_express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.583.0",
+    "@aws-sdk/client-ses": "^3.583.0",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "googleapis": "^137.1.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.47.2",
+    "serverless-http": "^3.2.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
