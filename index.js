@@ -17,9 +17,9 @@ const {
     buildEmailCommand
 } = require('./lib');
 
-console.log(FB_APP_ID);
+// console.log(FB_APP_ID);
 const app = express();
-const port = 3000;
+// const port = 3000;
 // const REDIRECT_URI = `https://vjs2pvwuwd.execute-api.us-east-2.amazonaws.com/auth/callback`;
 const REDIRECT_URI = `http://localhost:3000/auth/callback`;
 app.use(express.json());
@@ -237,8 +237,8 @@ app.post('/rss-data', async (req, res) => {
     }
 });
 
-app.listen(port, () => {
-    console.log(`app is listing on port ${port}`)
-})
+// app.listen(port, () => {
+//     console.log(`app is listing on port ${port}`)
+// })
 
-// module.exports.handler = serverless(app);
+module.exports.handler = serverless(app);
